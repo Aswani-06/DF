@@ -1,3 +1,5 @@
 FROM nginx
-COPY index.html /usr/share/nginx/html
+WORKDIR Devops/mypage
+EXPOSE 80
+COPY . /usr/share/nginx/html
  
